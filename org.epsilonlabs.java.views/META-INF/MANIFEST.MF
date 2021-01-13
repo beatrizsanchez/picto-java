@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Views
+Bundle-SymbolicName: org.epsilonlabs.java.views;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Epsilonlabs
+Automatic-Module-Name: org.epsilonlabs.java.views
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.epsilonlabs.modelflow.engine,
+ org.eclipse.epsilon.erl.dt,
+ org.eclipse.jface.text,
+ org.eclipse.epsilon.dt.exeed,
+ org.eclipse.epsilon.picto,
+ org.eclipse.jdt.core,
+ org.eclipse.jdt.ui
+Export-Package: org.epsilonlabs.java.views
